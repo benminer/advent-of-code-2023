@@ -1,10 +1,10 @@
 use std::env;
 
 mod aoc;
-mod day1;
+mod solutions;
 
 use aoc::day::AdventOfCodeDay;
-
+use solutions::*;
 fn main() {
     let args: Vec<String> = env::args().collect();
     let mut day = 1;
