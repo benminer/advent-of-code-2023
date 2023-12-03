@@ -141,7 +141,6 @@ pub fn part2(day: &AdventOfCodeDay) {
             // some lines only have one digit
             // use the first digit as the last digit in this case
             value = parse_digits(first_digit.unwrap(), first_digit.unwrap());
-            println!("Only one digit: {}", value);
         }         
 
         sum += value;
